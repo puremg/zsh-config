@@ -3,7 +3,7 @@ zstyle :compinstall filename '/Users/puremg/.zshrc'
 autoload -Uz compinit
 autoload -U promptinit; promptinit
 compinit
-prompt pure
+#prompt pure
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -13,3 +13,5 @@ SAVEHIST=1000
 source ~/.zsh_plugins.sh
 
 alias antibundle='antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh'
+eval $(thefuck --alias)
+neofetch
